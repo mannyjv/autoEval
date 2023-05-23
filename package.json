@@ -1,20 +1,13 @@
 {
   "name": "practice-proj-autoeval",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cd ./backend && npm run start",
+    "frontend": "cd ./backend && npm run start",
+    "start": "npm run frontend",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mannyjv/autoEval.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mannyjv/autoEval/issues"
-  },
-  "homepage": "https://github.com/mannyjv/autoEval#readme",
-  "description": ""
+  "license": "ISC"
 }
